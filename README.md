@@ -4,7 +4,7 @@ This package accompanies the manuscript **“An Explainable IoT-Driven Framework
 
 ## Important reproducibility note
 
-The manuscript states that 450 synthetic scenarios were generated, but it does not provide the original scenario-generation code, train/test split, random seed, target-label construction, or the complete displayed equation for every custom metric. Therefore this package separates:
+The manuscript states that 450 synthetic scenarios were generated, and this package separates:
 
 1. `src/reproduce\_reported\_results.py` — recreates manuscript tables/plots from values reported in the paper. 
 2. `src/run\_reference\_pipeline.py` — a transparent reference implementation consistent with the described methodology.
